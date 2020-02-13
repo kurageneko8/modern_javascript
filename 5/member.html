@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Template</title>
+    <!-- [if it IE 9] -->
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <!-- [/if] -->
+</head>
+<body>
+    <!-- template.html -->
+    <form action="" method="post" id="theForm">
+        <div><label for="type">type</label><select name="type" id="type" required>
+            <option value="basic">basic - $10.00</option>
+            <option value="premium">premium - $15.00</option>
+            <option value="gold">gold - $20.00</option>
+            <option value="platinum">platinum - $25.00</option>
+        </select></div>
+        <div><label for="years">year</label><input type="number" name="years" id="years" min="1" required></div>
+        <div><label for="cost">cost</label><input type="text" name="cost" id="cost" disabled></div>
+        <input type="submit" value="calculate" id="submit">
+    </form>
+    <script src="js/member.js"></script>
+</body>
+</html>

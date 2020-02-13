@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Template</title>
+    <!-- [if it IE 9] -->
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <!-- [/if] -->
+</head>
+<body>
+    <!-- template.html -->
+    <form action="login.php" method="post" id="loginForm">
+        <fieldset>
+            <legend>ログイン</legend>
+            <div><label for="email">mail address</label>
+                <!-- <input type="email" name="email" id="email" required> -->
+                <input type="email" name="email" id="email" >
+            </div>
+            <div><label for="password">PassWord</label>
+                <!-- <input type="password" name="password" id="password" required> -->
+                <input type="password" name="password" id="password">
+            </div>
+            <div><label for="submit"></label>
+                <input type="submit" value="ログイン &rarr;" id="submit">
+            </div>
+        </fieldset>
+    </form>
+    <script src="js/login.js"></script>
+</body>
+</html>
